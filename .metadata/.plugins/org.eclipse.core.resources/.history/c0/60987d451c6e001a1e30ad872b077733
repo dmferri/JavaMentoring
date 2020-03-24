@@ -1,0 +1,21 @@
+
+public class Author {
+	private String authorName;
+	private String nationality;
+	private int birthdayYear;
+	
+	public String getAuthorName() {
+		return authorName;
+	}
+	public String getNationality() {
+		return nationality;
+	}
+	public int getBirthdayYear() {
+		return birthdayYear;
+	}
+	public void registerAuthor(String authorName, String nationality, int birthdayYear)  {
+		this.authorName = authorName;
+		this.nationality = nationality;
+		this.birthdayYear = birthdayYear;
+	}
+}

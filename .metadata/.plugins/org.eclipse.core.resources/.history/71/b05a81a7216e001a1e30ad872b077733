@@ -23,7 +23,7 @@ public class Main {
 		book1.setPublishingYear(sc.nextInt());
 		System.out.printf("Name of the Publishing Company: ");
 		book1.setPublishingCompany(sc.next());
-		System.out.printf("Book Author: ");
+		
 	}
 
 }
