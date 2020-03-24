@@ -1,0 +1,10 @@
+
+public class Produto {
+	int x;
+	int y; 
+	int z
+	public static void main(String[] args) {
+		System.out.println("Valor de X: ");
+		x = input.nextInt();
+	}
+}

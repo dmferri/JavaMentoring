@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Aritmetica ar = new Aritmetica();
+		
+		System.out.printf("Numero 01: ");
+		ar.setNum1(sc.nextInt());
+		System.out.printf("Numero 02: ");
+		ar.setNum2(sc.nextInt());
+		
+		System.out.println("Soma: " + ar.soma());
+		System.out.println("Diferença: " + ar.diferenca());
+		System.out.println("Produto: " + ar.produto());
+		System.out.println("Quociente: " + ar.quociente());
+	}
+}

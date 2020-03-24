@@ -1,0 +1,6 @@
+
+public class Produto {
+	int x;
+	int y; 
+	int z
+}

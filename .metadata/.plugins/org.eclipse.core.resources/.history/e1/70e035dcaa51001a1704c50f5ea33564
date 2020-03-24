@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int x;
+		int y;
+		int z;
+		int result;
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Valor de X: ");
+		x = input.nextInt();
+		System.out.println("Valor de Y: ");
+		y = input.nextInt();
+		System.out.println("Valor de Z: ");
+		z = input.nextInt();
+		
+		result = x*y*z;
+		System.out.printf("Product is " + result);
+	}
+}
