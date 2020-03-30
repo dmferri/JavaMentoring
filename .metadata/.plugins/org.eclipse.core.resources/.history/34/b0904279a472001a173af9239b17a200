@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class Main {
 
@@ -26,18 +27,18 @@ public class Main {
 		book1.setEdition(1);
 		book1.setPublishingYear(1977);
 		book1.setPublishingCompany("José Olympio");
-		book1.setAuthorName(author1.getAuthorName());
+		book1.setNomeAutor(author1.getAuthorName());
 		
 		book2.setBookName("Dom Casmurro");
 		book2.setEdition(1);
 		book2.setPublishingYear(1899);
 		book2.setPublishingCompany("Martin Claret");
-		book2.setAuthorName(author2.getAuthorName());
+		book2.setNomeAutor(author2.getAuthorName());
 		
 		book3.setBookName("It: a Coisa");
 		book3.setEdition(1);
 		book3.setPublishingYear(1986);
 		book3.setPublishingCompany("Viking Press");
-		book3.setAuthorName(author3.getAuthorName());	
+		book3.setNomeAutor(author3.getAuthorName());	
 	}
 }

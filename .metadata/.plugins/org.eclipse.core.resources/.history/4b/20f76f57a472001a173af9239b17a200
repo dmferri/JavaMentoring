@@ -4,13 +4,14 @@ public class Book {
 	private String publishingCompany;
 	private int edition;
 	private int publishingYear;
-	private String authorName;
+	private Author authorName;
+	private String nomeAutor;
 	
-	public String getAuthorName() {
-		return authorName;
+	public String getNomeAutor() {
+		return nomeAutor;
 	}
-	public void setAuthorName(String authorName) {
-		this.authorName = authorName;
+	public void setNomeAutor(String nomeAutor) {
+		this.nomeAutor = nomeAutor;
 	}
 	public String getBookName() {
 		return bookName;
@@ -36,4 +37,11 @@ public class Book {
 	public void setPublishingYear(int publishingYear) {
 		this.publishingYear = publishingYear;
 	}
+	public Author getAuthorName() {
+		return authorName;
+	}
+	public void setAuthorName(Author authorName) {
+		this.authorName = authorName;
+	}
+	
 }
