@@ -1,3 +1,4 @@
+package book.management.system.dto;
 
 public class Book {
 	private String bookName;
