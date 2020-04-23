@@ -6,7 +6,14 @@ public class Book {
 	private int edition;
 	private int publishingYear;
 	private String authorName;
+	private int bookId;
 	
+	public int getBookId() {
+		return bookId;
+	}
+	public void setBookId(int bookId) {
+		this.bookId = bookId;
+	}
 	public String getAuthorName() {
 		return authorName;
 	}

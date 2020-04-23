@@ -4,7 +4,14 @@ public class Author {
 	private String authorName;
 	private String nationality;
 	private int birthdayYear;
+	private int authorId;
 	
+	public int getAuthorId() {
+		return authorId;
+	}
+	public void setAuthorId(int authorId) {
+		this.authorId = authorId;
+	}
 	public String getAuthorName() {
 		return authorName;
 	}
