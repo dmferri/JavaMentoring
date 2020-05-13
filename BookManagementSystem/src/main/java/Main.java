@@ -1,10 +1,8 @@
 package main.java;
 import java.util.Scanner;
-
 import book.management.system.dto.Author;
 import book.management.system.dto.Book;
 import util.Menu;
-import util.WriteFile;
 
 public class Main {
 
@@ -24,9 +22,10 @@ public class Main {
 				for (i = 0; i <author.length; i++) {
 				      if (author[i] == null) {
 				        break;
-				      }
-				    }
-				author[i].setAuthorId(i);
+				     }
+				}
+				author[i] = new Author();
+				author[i].setAuthorId(i+1);
 				System.out.print("Nome do Autor: ");
 				author[i].setAuthorName(sc.next());
 				System.out.print("Nacionalidade do author: ");
@@ -36,7 +35,7 @@ public class Main {
 				System.out.println("");
 				System.out.println("|||Cadastro Realizado com Sucesso|||");
 				System.out.println("");
-			
+					
 			case 2:
 				int j;
 				for (j = 0; j <book.length; j++) {
@@ -44,6 +43,7 @@ public class Main {
 				        break;
 				      }
 				    }
+				book[j] = new Book();
 				book[j].setBookId(j+1);
 				System.out.print("Nome do Livro: ");
 				book[j].setBookName(sc.next());
@@ -60,7 +60,14 @@ public class Main {
 				System.out.println("");
 	
 			case 3:
-			
+				if (author[0] != null) {
+					for (int x = 0; x< author.length;x++) {
+						author[x].printAuthor();
+					}
+				} else {
+					System.out.println("Não há autores na lista");
+				}
+				
 			case 4:
 			
 			case 5:

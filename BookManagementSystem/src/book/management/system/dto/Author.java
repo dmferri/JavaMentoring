@@ -30,4 +30,10 @@ public class Author {
 	public void setBirthdayYear(int birthdayYear) {
 		this.birthdayYear = birthdayYear;
 	}
+	public void printAuthor() {
+		System.out.println(authorId);
+		System.out.println(authorName);
+		System.out.println(nationality);
+		System.out.println(birthdayYear);
+	}
 }

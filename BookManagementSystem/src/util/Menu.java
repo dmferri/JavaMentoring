@@ -9,5 +9,4 @@ public class Menu {
 		System.out.println("4 - Mostrar Autores Cadastrados");
 		System.out.println("5 - Sair");
 	}
-	
 }
